@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Socket Client</title>
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+  </head>
+  
+  <body>
+    Hello Socket
+    <div id="messg"></div>
+  </body>
+  
+  <script>
+    
+    const socket = io('http://localhost:3000');
+    socket.on('connect',()=>{
+      console.log('Connected to server',socket.id);
+      socket.emit('clientMessage','Hello This is from client')
+      
+      
+      socket.on('myservermessg',(message)=>{
+        document.getElementById('messg').innerHTML = message
+      })
+    })
+    
+    socket.on('disconnect',()=>{
+      console.log('DisConnected to server',socket.id)
+    })
+  </script>
+</html>
+
+
+
+
+
+
+
+
+
+
