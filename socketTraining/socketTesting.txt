@@ -1,4 +1,0 @@
-socket.emit()               //send message for current user
-socket.to(roomid).emit()    //send message for a specific room EXCEPT the sender
-io.emit()                   //send message for all (even include all rooms,include the sender)
-io.to(roomid).emit()        //send message for a specific room INCLUDING the sender
