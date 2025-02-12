@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>Socket Testing 2</title>
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+  </head>
+  <body>
+    <h1>Private Message</h1>
+    ID:<span id='id'></span>
+    
+    <br>ReceiverID<input type="text" id='receiverId'>
+    <br>Message<input type='text' id='message'>
+    <button onclick="sendprivymessg()">Send</button>
+    
+    <h2>Messages will appear below</h2>
+    <div id="ourmessages"></div>
+  </body>
+  
+  <script>
+    function sendprivymessg(){
+      const receiverId = document.getElementById('receiverId').value;
+      
+      const message = document.getElementById('message').value;
+      
+      socket.emit('privatemessg',{
+        receiverId, message
+      })
+    }
+    
+    
+    const socket = io('http://localhost:3000');
+    socket.on('connect',()=>{
+      document.getElementById('id').innerHTML = socket.id
+    });
+    
+    socket.on('receivemessg',({senderId, message})=>{
+      const messagedata = `From ${senderId} : ${message}`;
+      document.getElementById('ourmessages').innerHTML = messagedata
+    })
+    
+    socket.on('disconnect',()=>{
+      console.log('disconnected from server', socket.id)
+    })
+  </script>
+</html>
