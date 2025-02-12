@@ -1,0 +1,16 @@
+6. Response and key mistake that helps hackers
+Discovery & Response
+Once Equifax detected the breach, they shut down the affected servers and hired cybersecurity firms to investigate.
+The breach was publicly disclosed on September 7, 2017—over a month after its discovery.
+The U.S. Department of Justice (DOJ) later linked the attack to Chinese military hackers (PLA Unit 61398).
+
+Key Mistakes by Equifax That Helped the Hackers
+Failure to Patch Known VulnerabilityThe Apache Struts exploit was publicly known two months before the attack, but Equifax did not update their systems.
+Lack of Network SegmentationHackers moved freely between web servers, databases, and internal systems.
+Weak Access ControlsCredentials were hardcoded in configuration files, making it easy for hackers to escalate privileges.
+Poor Monitoring & DetectionThe attackers exfiltrated data for 76 days before Equifax even noticed.
+Ineffective Incident ResponseAfter detecting the breach, it still took over a month to notify the public.
+U.S. Response & Legal Action
+In February 2020, the U.S. indicted the four Chinese hackers, but they were never arrested because they reside in China.
+The indictment was mostly symbolic since China does not extradite its citizens.
+The case was part of a broader U.S. crackdown on Chinese cyber espionage.

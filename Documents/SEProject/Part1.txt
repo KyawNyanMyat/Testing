@@ -1,0 +1,20 @@
+1. Judge Biggest Crime
+A cybercrime’s "biggest" status is based on the number of victims, financial losses, data sensitivity, disruption, and global consequences. The Equifax breach (2017), Yahoo breach (2013-14), and NotPetya attack (2017) are among the biggest in history based on these criteria.
+1. Number of Victims Affected
+The more people impacted, the bigger the crime.
+Example: Yahoo Data Breach (2013-2014) – 3 billion accounts compromised.
+2. Financial Damage ($ Losses)
+Includes direct financial theft, legal fines, compensation, and stock losses.
+Example: Bernard Madoff’s Ponzi Scheme – $64 billion in fraud (biggest financial cybercrime).
+3. Data Sensitivity & National Security Impact
+If highly sensitive data is stolen (e.g., government, military, financial records), the impact is greater.
+Example: Equifax Breach (2017) – 147 million people had Social Security numbers and financial data stolen, putting millions at risk of fraud.
+Example: Office of Personnel Management (OPM) Breach (2015) – China stole 21.5 million U.S. government employee records, including fingerprints
+4. Economic & Business Disruption
+Cyber-attacks that cripple industries or governments are considered major crimes.
+Example: NotPetya Ransomware (2017) – Caused $10 billion in damages to global businesses.
+5. International & Legal Consequences
+If the attack leads to major lawsuits, government action, or international conflict, it’s a significant crime.
+Example: PLA’s involvement in the Equifax breach (2017) – Led to U.S. indictments against Chinese military hackers.
+
+
