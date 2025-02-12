@@ -1,0 +1,32 @@
+7. Consequences 
+Equifax agreed to pay up to $700 million as part of a settlement with the U.S. Federal Trade Commission (FTC), Consumer Financial Protection Bureau (CFPB), and 50 U.S. states.
+$425 million was set aside for consumer compensation (credit monitoring, reimbursements, and identity theft protection).
+Lawsuits & Investigations
+
+Equifax faced thousands of lawsuits from affected consumers.
+The U.S. Department of Justice (DOJ) indicted four Chinese military hackers (PLA Unit 61398) in 2020.
+Stock Price Drop
+
+Equifax’s stock dropped by 30% after the breach, wiping out billions in market value.
+Executives Forced to Resign
+
+CEO Richard Smith, CIO David Webb, and CSO Susan Mauldin resigned due to public outrage.
+B. Impact on Consumers
+Identity Theft & Fraud Risks
+
+Stolen Social Security numbers, addresses, and driver’s license data made victims vulnerable to identity fraud.
+Criminals used stolen data to open fake credit accounts, apply for loans, and commit tax fraud.
+Credit Freezes & Monitoring Costs
+
+Millions of people had to freeze their credit to prevent fraud.
+Equifax offered free credit monitoring for affected users, but many consumers had to pay for additional protection services.
+C. Regulatory & Government Reforms
+Stricter Data Protection Laws
+
+The breach influenced the introduction of stronger privacy laws in the U.S. and worldwide, including:
+California Consumer Privacy Act (CCPA) – Gave consumers more control over their personal data.
+General Data Protection Regulation (GDPR) – Strengthened EU data protection laws.
+Stronger Security Regulations for Credit Bureaus
+
+U.S. lawmakers pressured credit agencies to improve their cybersecurity and transparency.
+The FTC now requires regular security audits for Equifax.

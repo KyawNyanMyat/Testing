@@ -1,0 +1,26 @@
+8.Lesson Learn
+Lessons Learned
+A. Keep Systems Updated – Patch Vulnerabilities Quickly
+The Equifax breach happened because the company failed to patch a known vulnerability in Apache Struts.
+Lesson: Companies must apply security patches immediately to prevent exploits.
+B. Implement Strong Access Controls & Encryption
+Hackers stole sensitive data because Equifax did not encrypt Social Security numbers in some databases.
+Lesson:
+Use strong encryption for personal and financial data.
+Enforce multi-factor authentication (MFA) to prevent unauthorized access.
+C. Network Segmentation & Monitoring
+Equifax’s poor network segmentation allowed attackers to move laterally and access multiple systems.
+The company also failed to detect unusual data transfers for 76 days.
+Lesson:
+Segment networks so hackers cannot access everything after breaching one system.
+Use intrusion detection systems (IDS) to detect suspicious activity.
+D. Improve Incident Response & Crisis Management
+Equifax took over a month to disclose the breach, leading to delayed consumer protection efforts.
+Lesson:
+Companies must have a clear incident response plan for cyberattacks.
+Transparency and quick disclosure help protect customers and maintain trust.
+E. Strengthen Employee Training & Security Culture
+Equifax failed to follow basic cybersecurity hygiene, like patching software and monitoring logs.
+Lesson:
+Train employees on cybersecurity best practices.
+Conduct regular security audits and penetration testing.
