@@ -1,0 +1,31 @@
+3. About hackers
+Hackers Behind the Equifax Data Breach (2017)
+The U.S. Department of Justice (DOJ) charged four Chinese military hackers from the People’s Liberation Army (PLA) in 2020 for carrying out the attack. These hackers were allegedly part of PLA Unit 61398, a cyber-espionage group known for targeting Western companies and governments.
+
+1. Who Were the Hackers?
+The DOJ indicted four Chinese nationals believed to be members of the PLA’s 54th Research Institute under the Chinese military’s Strategic Support Force (SSF):
+
+Wu Zhiyong
+Wang Qian
+Xu Ke
+Liu Lei
+These individuals were accused of carrying out a state-sponsored cyberattack aimed at stealing sensitive financial and personal data from Equifax.
+
+2. Why Did China Allegedly Target Equifax?
+The attack was not just about financial fraud but likely had a national security and intelligence purpose. The U.S. government believes China wanted:
+
+Massive Identity Data Collection:
+
+The stolen Social Security numbers, birth dates, and addresses could be used to build databases on U.S. citizens.
+This could help identify intelligence targets for espionage.
+Credit and Financial Information:
+
+Information on financial habits, debts, and assets could be useful for economic intelligence and leverage in trade negotiations.
+Combination with Other Hacks:
+
+The Equifax breach wasn’t an isolated incident. China-linked hackers were also behind:
+2015 Office of Personnel Management (OPM) breach (21.5 million U.S. government employee records stolen).
+2018 Marriott Hotel breach (500 million customer records stolen).
+Strategic Cyber Warfare:
+
+China’s cyber strategy involves collecting large amounts of personal data on foreign citizens, especially in the U.S., to gain a strategic advantage in intelligence and cyber warfare.

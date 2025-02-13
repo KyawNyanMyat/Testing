@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Testing</title>
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+</head>
+<body>
+    <h1>Socket Room</h1>
+    User ID: <span id="id"></span>
+
+    <h2 id="status">You haven't join the room</h2>
+
+    <h2>Join Room</h2>
+    <input id="roomName" placeholder="Enter Room Name">
+    <button onclick="joinRoom()">Join Room</button> <button onclick="leaveroom()">Leave Room</button>
+
+    <h2>Send Message to Room</h2>
+    <input id="message" placeholder="Enter Message">
+    <button onclick="sendMessage()">Send</button>
+
+    <h2>Room Members</h2>
+    <div id="roomMembers"></div>
+
+    <h2>Received Message will appeared below</h2>
+    <div id="roomMessage"></div>
+</body>
+<script>
+    const socket = io('http://localhost:3000');
+
+    var yourRoomId = 0;
+
+    function joinRoom(){
+        const roomName = document.getElementById('roomName').value
+        socket.emit('joinroom',roomName)
+    }
+
+    function leaveroom(){
+        console.log(yourRoomId)
+        socket.emit('leaveroom',yourRoomId)
+    }
+
+
+    function sendMessage(){
+        const message = document.getElementById('message').value
+        socket.emit('sendMessage',{roomName:yourRoomId, message})
+    }
+
+    socket.on('yourRoomIdandMembers',(RoomIdMember)=>{
+        yourRoomId = RoomIdMember.roomName;
+        document.getElementById('status').innerText = `You joined room ${yourRoomId}`;
+        document.getElementById('roomMembers').innerHTML = JSON.stringify(RoomIdMember[yourRoomId])
+    })
+
+    socket.on('receiveMessage',(message)=>{
+        document.getElementById('roomMessage').innerText = message
+    })
+
+    socket.on('connect',()=>{
+        document.getElementById('id').innerText = socket.id
+    })
+</script>
+</html>
