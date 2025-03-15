@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+</head>
+<body>
+    ID: <span id="id"></span>
+    <h2>Message will appear below</h2>
+    <div id="message"></div>
+    <script>
+        const socket = io('http://localhost:3000/chat',{
+            auth:{ token:'mysecrettoke'}
+        })
+        socket.on('connect',()=>{
+            document.getElementById('id').innerHTML = socket.id
+            socket.emit('message','You')
+        })
+
+        socket.on('message',(msg)=>{
+            document.getElementById('message').innerHTML = msg
+        })
+
+        socket.on('disconnect',()=>{
+            console.log('disconnect from server',socket.id)
+        })
+    </script>
+</body>
+</html>

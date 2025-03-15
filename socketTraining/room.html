@@ -39,6 +39,7 @@
     function leaveroom(){
         console.log(yourRoomId)
         socket.emit('leaveroom',yourRoomId)
+        document.getElementById('status').innerText = `You haven't join the room`;
     }
 
 
